@@ -1,0 +1,15 @@
+<template>
+  <div id="app">
+    <Header />
+    <main class="min-h-screen">
+      <RouterView />
+    </main>
+    <Footer />
+  </div>
+</template>
+
+<script setup>
+import { RouterView } from 'vue-router'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+</script>
