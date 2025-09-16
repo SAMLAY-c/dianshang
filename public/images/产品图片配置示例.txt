@@ -1,7 +1,0 @@
-{
-  id: 1,
-  name: "甜心蜜语",
-  mainImage: "/images/product-01-main.jpg", // 主图路径
-  gallery: ["/images/product-01-1.jpg", "/images/product-01-2.jpg"], // 多角度图
-  // ... 其他信息
-}
