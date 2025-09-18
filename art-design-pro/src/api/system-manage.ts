@@ -6,7 +6,7 @@ import { menuDataToRouter } from '@/router/utils/menuToRouter'
 // 获取用户列表
 export function fetchGetUserList(params: Api.SystemManage.UserSearchParams) {
   return request.get<Api.SystemManage.UserList>({
-    url: '/api/user/list',
+    url: '/mall-admin/admin/list',
     params
   })
 }
@@ -14,7 +14,7 @@ export function fetchGetUserList(params: Api.SystemManage.UserSearchParams) {
 // 获取角色列表
 export function fetchGetRoleList(params: Api.SystemManage.RoleSearchParams) {
   return request.get<Api.SystemManage.RoleList>({
-    url: '/api/role/list',
+    url: '/mall-admin/role/list',
     params
   })
 }
